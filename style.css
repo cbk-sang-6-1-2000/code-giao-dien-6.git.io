@@ -1,0 +1,766 @@
+@font-face {
+    font-family: 'Yu Gothic bold';
+    src: url(fonts/yu-gothic/yugothib.ttf);
+}
+
+@font-face {
+    font-family: 'Yu Gothic light';
+    src: url(fonts/yu-gothic/yu-gothic-light.ttf);
+}
+
+@font-face {
+    font-family: 'Yu Gothic Regular';
+    src: url(fonts/yu-gothic/regular/yugothic.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    max-width: 1170px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-right: auto;
+    margin-left: auto;
+    box-sizing: border-box;
+}
+
+.site-header .header-top {
+    background: #fff;
+}
+
+.site-header .header-top .container {
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.site-header .header-top .container h2 {
+    font-size: 22px;
+    margin-right: -65px;
+}
+
+.site-header .header-top .container span {
+    color: #FE0000;
+}
+
+.site-header .header-menu {
+    background: #333333;
+}
+
+.site-header .header-menu .container ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+}
+
+.site-header .header-menu .container li {
+    margin-right: 55px;
+}
+
+.site-header .header-menu .container a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    font-size: 18px;
+}
+
+.site-header .header-menu .container li:first-child {
+    color: #FE0000;
+}
+
+.site-header .header-menu .container li:last-child {
+    margin-right: 0;
+}
+
+/*main*/
+
+.site-main .site-banner {
+    background: url(images/assests/image\ 5.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.site-main .site-banner .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 700px;
+}
+
+.site-main .site-banner .container form {
+    width: 400px;
+    height: 640px;
+    border-radius: 3px;
+    background: #FFF;
+    padding: 0px 30px;
+    position: relative;
+    left: 300px;
+    
+}
+
+.site-main .site-banner .container form h3 {
+    color: #FE0000;
+    font-size: 20px;
+    font-family: 'Yu Gothic bold';
+    font-weight: 700;
+    text-align: center;
+    padding: 32px 0 14px 0;
+    margin-bottom: 0;
+}
+
+.site-main .site-banner .container form .form-label {
+    color: #444;
+    font-size: 14px;
+    font-family: 'Yu Gothic bold';
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.site-main .site-banner .container form .form-control {
+    height: 44px;
+    border: 1px solid #DDD;
+    background: #FFF;
+    border-radius: 0px;
+}
+
+.site-main .site-banner .container form input:focus {
+    box-shadow: none;
+}
+
+.site-main .site-banner .container form .mb-3 {
+    margin-bottom: 20px !important;
+}
+
+.site-main .site-banner .container form .btn-primary {
+    color: #fff;
+    padding: 10px 84px;
+    border-radius: 3px;
+    background: #333;
+    border: none;
+    margin: auto;
+    display: block;
+}
+
+.site-main .site-banner .container form .btn-primary:hover {
+    background-color: #FE0000;
+}
+
+.site-main .site-banner .container form .click-me {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.site-main .site-banner .container form .click-me a {
+    color: #1DA5CF;
+    font-size: 16px;
+    font-family: 'Yu Gothic Regular';
+    font-weight: 500;
+    text-decoration-line: underline;
+}
+
+.site-main .site-banner .container form .click-me a:hover {
+    color: red;
+}
+
+h1 {
+    color: #FFF;
+    font-size: 40px;
+    font-family: 'Yu Gothic bold';
+    background: rgba(254, 0, 0, 0.60);
+    padding: 9px 50px 9px 340px;
+    position: absolute;
+    left: 0px;
+    bottom: 157px;
+}
+
+.content-1 span {
+    font-size: 32px;
+}
+
+.content-1 p{
+    color: #FFF;
+    font-size: 22px;
+    font-family: 'Yu Gothic bold';
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 95px;
+    background: rgba(0, 0, 0, 0.80);
+    padding: 9px 38px 9px 340px;
+    left: 0;
+}
+
+.site-main .site-design {
+    height: 850px;
+    background: #ffff;
+    position: relative;
+    z-index: 2;
+}
+
+.site-main .site-design .container {
+    height: 850px;
+    padding-top: 140px;
+}
+.site-main .site-design .container .frame-one img {
+    padding: 40px 75px;
+    border-radius: 3px;
+    background: #F8F8F8;
+}
+
+.site-main .site-design .container .frame-two img {
+    padding: 32px 75px;
+    border-radius: 3px;
+    background: #F8F8F8;
+}
+
+.site-main .site-design .container figure{
+    display: flex;
+    padding-left: 30px;
+    margin-bottom: 0;
+}
+
+.site-main .site-design .container figure h3 {
+    font-size: 22px;
+    font-family: 'Yu Gothic bold';
+    position: relative;
+    margin-bottom: 13px;
+}
+
+.site-main .site-design .container figure a {
+    color: #333;
+    text-decoration: none;
+}
+
+.site-main .site-design .container figure a:hover {
+    color: red;
+}
+
+.site-main .site-design .container figure p {
+    color: #444;
+    font-size: 16px;
+    font-family: 'Yu Gothic Regular';
+    width: 440px;
+    height: 85px;
+    margin-bottom: 0;
+}
+
+.site-main .site-design .container h2 {
+    color: #333;
+    font-size: 42px;
+    font-family: 'Yu Gothic bold';
+    text-align: center;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.site-main .site-design .container h2::after {
+    content: "Service";
+    position: absolute;
+    top: 13px;
+    left: 39%;
+    color: #F5F5F5;
+    font-size: 60px;
+    font-family: Yu Gothic;
+    font-weight: 700;
+    text-transform: uppercase;
+    z-index: -1;
+  }
+
+.site-main .site-design .container figure h3::after {
+    content: "";
+    display: block;
+    width: 2px;
+    height: 95px;
+    background-color: black;
+    position: absolute;
+    top: -50px;
+    left: -24px;
+}
+
+.site-main .site-design .container .picture aside{
+    margin-left: 68px;
+    margin-top: 28px;
+}
+
+.site-main .site-design .container .frame-two {
+    margin-left: 90px;
+}
+
+/* */
+
+.site-main .site-feature {
+    background: #F8F8F8;
+    position: relative;
+    z-index: 1;
+}
+
+.site-main .site-feature .container{
+    height: 800px;
+    padding: 0 10px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.site-main .site-feature .container::before{
+    content: "";
+    position: absolute;
+    width: 330px;
+    height: 1142.596px;
+    transform: rotate(29.792deg);
+    background: #F2F2F2;
+    left: 26%;
+    top: -20%;
+    z-index: -5;
+}
+
+.site-main .site-feature .container nav {
+    background: #fff;
+    padding-top: 26px;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 330px;
+}
+
+.site-main .site-feature .container .feature {
+    display: grid;
+    column-gap: 50px;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+}
+
+.site-main .site-feature .container .feature i{
+    color: #FE0000;
+    font-size: 60px;
+}
+
+.site-main .site-feature .container .feature h4 {
+    margin: 19px 0;
+}
+.site-main .site-feature .container .feature h4 a{
+    color: #333;
+    font-size: 18px;
+    font-family: 'Yu Gothic bold';
+    line-height: 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.site-main .site-feature .container .feature h4 a:hover{
+    color: red;
+}
+
+.site-main .site-feature .container .feature p{
+    color: #444;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Yu Gothic Regular';
+    line-height: 24px;
+    text-transform: uppercase;
+    padding: 0 5px;
+}
+
+.site-main .site-feature .container h2 {
+    color: #333;
+    font-size: 42px;
+    font-family: 'Yu Gothic bold';
+    text-align: center;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.site-main .site-feature .container h2::after {
+    content: "Feature";
+    position: absolute;
+    top: 13px;
+    left: -100%;
+    color: #E8E8E8;
+    font-size: 60px;
+    font-family: 'Yu Gothic bold';
+    font-weight: 700;
+    text-transform: uppercase;
+    z-index: -1;
+}
+
+.site-main .site-feature .container .link a {
+    color: #FE0000;
+    font-size: 20px;
+    font-family: 'Yu Gothic bold';
+    text-decoration-line: underline;
+    text-transform: uppercase;
+}
+
+.site-main .site-feature .container .link a:hover {
+    color: blue
+}
+
+.site-main .site-feature .container .link {
+    margin-top: 88px;
+}
+
+.site-main .site-feature .container .link span{
+    margin: 0 26px;
+    color: #A7A7A7;
+    font-size: 20px;
+}
+
+.site-main .comming-soon {
+    background: #fff;
+    z-index: 1;
+    position: relative;
+}
+
+.site-main .comming-soon .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 695px;
+}
+
+.site-main .comming-soon .container h2 {
+    color: #333;
+    font-size: 42px;
+    font-family: 'Yu Gothic bold';
+    position: relative;
+    margin-bottom: 126px;
+}
+
+.site-main .comming-soon .container h2::after {
+    content: "experience";
+    position: absolute;
+    top: 13px;
+    left: -44%;
+    color: #E8E8E8;
+    font-size: 60px;
+    font-family: 'Yu Gothic bold';
+    text-transform: uppercase;
+    z-index: -1;
+}
+
+.site-main .comming-soon .container .box {
+    color: #C4C4C4;
+    font-size: 70px;
+    font-family: 'Yu Gothic bold';
+    width: 841px;
+    height: 274px;
+    flex-shrink: 0;
+    background: #EDEDED;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* */
+
+.site-main .registration-form article {
+    background: #D31818;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.site-main .registration-form article p{
+    margin-bottom: 0;
+}
+
+.site-main .registration-form article a{
+    color: #FFF;
+    font-size: 22px;
+    font-family: 'Yu Gothic bold';
+    font-weight: 700;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+}
+
+.site-main .registration-form article a:hover{
+    color: red;
+}
+
+.site-main .registration-form article span{
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 22px;
+    font-family: 'Yu Gothic bold';
+    text-transform: uppercase;
+    margin: 0 20px;
+}
+
+.site-main .programming-language ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.site-main .programming-language li {
+    width: 170px;
+    height: 100px;
+    margin-right: 25px;
+    border: 1px solid #EDEDED;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.site-main .programming-language {
+    margin-top: 116px;
+}
+.site-main .programming-language li img {
+    position: relative;
+    z-index: -1;
+}
+
+.site-main .programming-language h2 {
+    color: #333;
+    font-size: 42px;
+    font-family: 'Yu Gothic bold';
+    position: relative;
+    text-align: center;
+    margin-bottom: 28px;
+}
+
+.site-main .programming-language h2::after {
+    content: "Customer";
+    position: absolute;
+    color: #E8E8E8;
+    font-size: 60px;
+    font-family: 'Yu Gothic bold';
+    text-transform: uppercase;
+    z-index: -1;
+    left: 35%;
+    top: 20%;
+}
+
+.site-footer {
+    height: 90px;
+    background: #333;
+}
+
+.site-footer .container {
+    margin-top: 188px;
+    display: flex;
+    height: 90px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.site-footer .container p {
+    color: #FFF;
+    font-size: 14px;
+    font-family: 'Yu Gothic Regular';
+    margin-bottom: 0;
+}
+
+.site-footer .container figure{
+    margin-bottom: 0;
+}
+
+.site-footer .container span {
+    color: #FE0000;
+}
+
+/*CSS page */
+#main #page {
+    background: url(images/assests/bg23\ 1.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#header .page {
+    background: #000;
+}
+
+#page form {
+    position: absolute;
+    left: auto;
+    right: 40px;
+}
+
+#main .page .container{
+    height: 700px;
+}
+
+#main .page .content {
+    display: flex;
+    column-gap: 126px;
+}
+
+#main .page .content .context {
+    display: flex;
+    width: 370px;
+    height: 390px;
+    flex-direction: column;
+    color: #000;
+}
+
+#main .page .content .context h3 {
+    font-size: 20px;
+    font-family: 'Yu Gothic bold';
+    margin-bottom: 30px;
+}
+
+#main .page .content .context span {
+    position: relative;
+    top: 25px;
+}
+
+#main .page .content .context p {
+    font-size: 16px;
+    font-family: 'Yu Gothic Regular';
+}
+
+#main .page .content .context-2 {
+    width: 674px;
+}
+
+#main .page .content .context-2 figure{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+#main .page .content .context-2 figure img{
+    border-radius: 50%;
+}
+
+#main .page .content .context-2 h4 {
+    font-size: 18px;
+    font-family: 'Yu Gothic bold';
+}
+
+#main .page .content .context-2 figcaption {
+    font-family: 'Yu Gothic Regular';
+    position: relative;
+    margin-left: 30px;
+    border-radius: 5px;
+    border: 2px solid #DDD;
+    background: #FFF;
+    padding: 30px;
+    box-sizing: border-box;
+    width: 470px;
+    height: 170px;
+}
+
+#main .page .content .context-2 figcaption::after {
+    content: "";
+    display: block;
+    width: 33px;
+    height: 17px;
+    position: absolute;
+    top: 43%;
+    left: -3%;
+    background: url(images/assests/icon.png) transparent no-repeat;
+}
+
+
+
+.site-question .container h2 {
+    color: #000;
+    font-size: 42px;
+    font-family: 'Yu Gothic bold';
+    margin-bottom: 58px;
+    position: relative;
+}
+
+.site-question .container h2::after {
+    content: "FAQs";
+    position: absolute;
+    color: #E8E8E8;
+    font-size: 60px;
+    font-family: 'Yu Gothic bold';
+    text-transform: uppercase;
+    z-index: -1;
+    left: 16%;
+    top: 20%;
+}
+
+.site-question .container h3 {
+    color: #000;
+    font-size: 18px;
+    font-family: 'Yu Gothic bold';
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0;
+    padding: 40px 0;
+}
+
+.site-question .container i {
+    font-size: 18px;
+}
+
+.site-question .container ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.site-question .container li {
+    width: 970px;
+    border-top: 1px solid #000;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+/* .site-question .container li::before {
+    content: "\efc0";
+    font-family: "IcoFont";
+    display: inline-block;
+    margin-left: 5px;
+    position: absolute;
+  } */
+
+.site-question .container li:first-child {
+    border-top: none;
+
+}
+
+.site-question .container li p {
+    margin-bottom: 0;
+    margin-bottom: 37px;
+    font-size: 16px;
+    font-family: 'Yu Gothic Regular';
+}
+
+.site-question .container ul h3:first-child {
+    padding-bottom: 16px;
+}
+
+.site-question .container {
+    height: 1110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.site-question {
+    background: #f8f8f8;
+    position: relative;
+    z-index: 1;
+}
+
+/* .site-question p{
+    display: none;
+} */
